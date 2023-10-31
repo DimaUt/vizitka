@@ -1,0 +1,61 @@
+* {
+    color: rgb(32, 42, 32);
+}
+
+html {
+    background-color: #c4f4b5;
+  }
+
+h1,
+h3 {
+    left: 120px;
+    height: 45px;
+    width: 88%;
+    border: 2px solid rgb(246, 144, 10);
+}
+
+/* это img иконка - у нее собственное имя (id)*/
+#icon-img {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    height: 95px;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    top: 12%;
+    left: 120px;
+    text-align: left;
+    width: 60%;
+    font-size: large;
+    margin-top: 3%;
+}
+
+/* основная картинка */
+img {
+    position: absolute;
+    top: 18%;
+    right: 25px;
+    height: 65%;
+}
+
+/* footer */
+h3 {
+    position: absolute;
+    bottom: 10px;
+    line-height: 45px;
+}
+
+/* a copy значек копирайта - он входит в класс */
+.copy-r {
+    float: right;
+    text-decoration: none;
+    color: brown;
+}
